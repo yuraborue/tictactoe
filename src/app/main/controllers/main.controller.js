@@ -6,6 +6,6 @@ angular.module('tictactoe')
     this.newGame = function() {
       this.GameManager.newGame(this.dimension);
     }
-    this.newGame();
     this.move = this.GameManager.move.bind(this.GameManager);
+    this.newGame();
   });

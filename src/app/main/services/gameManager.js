@@ -1,5 +1,31 @@
+/*
+	service with game logic
+*/
 angular.module('tictactoe')
 .service('GameManager', function() {
+	/*
+		this.player
+		Current player
+			int(1) - X
+			int(2) - O
+	*/
+	this.player = 1;
+
+	/*
+		this.winner
+		Current game state
+			int(1) - X winners
+			int(2) - O winners
+			int(-1) - tie game
+			int(0) - game going 
+	*/
+	this.winner = 0;
+
+	/* 
+		getWinner
+		Function to determine the state of the game
+		returns the same value as this.winner
+	*/
 	var getWinner = function(board) {
 		var size = board.length-1;
 		var emptyCell = 0;
@@ -34,6 +60,10 @@ angular.module('tictactoe')
 			return -1;
 		return 0;
 	};
+
+	/*
+		start new game
+	*/
 	this.newGame = function(size) {
 		size = size || 3;
 		this.board = [];
@@ -46,6 +76,13 @@ angular.module('tictactoe')
 		this.winner = 0;
 		return true;		
 	};
+
+	/*
+		Move in current game
+		returns:
+			bool(false) - failed
+			boot(true)  - success
+	*/
 	this.move = function(row,cell) {
 		if (this.board[row][cell] != 0)
 			return false;
