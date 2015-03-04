@@ -1,0 +1,135 @@
+0 info it worked if it ends with ok
+1 verbose cli [ '/usr/bin/node', '/usr/bin/npm', 'install', '-g', 'gulp-karma' ]
+2 info using npm@1.4.28
+3 info using node@v0.10.36
+4 verbose node symlink /usr/bin/node
+5 verbose cache add [ 'gulp-karma', null ]
+6 verbose cache add name=undefined spec="gulp-karma" args=["gulp-karma",null]
+7 verbose parsed url { protocol: null,
+7 verbose parsed url   slashes: null,
+7 verbose parsed url   auth: null,
+7 verbose parsed url   host: null,
+7 verbose parsed url   port: null,
+7 verbose parsed url   hostname: null,
+7 verbose parsed url   hash: null,
+7 verbose parsed url   search: null,
+7 verbose parsed url   query: null,
+7 verbose parsed url   pathname: 'gulp-karma',
+7 verbose parsed url   path: 'gulp-karma',
+7 verbose parsed url   href: 'gulp-karma' }
+8 silly lockFile 3fbcf81e-gulp-karma gulp-karma
+9 verbose lock gulp-karma /home/borue_ys/.npm/3fbcf81e-gulp-karma.lock
+10 silly lockFile 3fbcf81e-gulp-karma gulp-karma
+11 silly lockFile 3fbcf81e-gulp-karma gulp-karma
+12 verbose addNamed [ 'gulp-karma', '' ]
+13 verbose addNamed [ null, '*' ]
+14 silly lockFile c14ff181-gulp-karma gulp-karma@
+15 verbose lock gulp-karma@ /home/borue_ys/.npm/c14ff181-gulp-karma.lock
+16 silly addNameRange { name: 'gulp-karma', range: '*', hasData: false }
+17 verbose request where is /gulp-karma
+18 verbose request registry https://registry.npmjs.org/
+19 verbose request id fa072d288f06fe34
+20 verbose url raw /gulp-karma
+21 verbose url resolving [ 'https://registry.npmjs.org/', './gulp-karma' ]
+22 verbose url resolved https://registry.npmjs.org/gulp-karma
+23 verbose request where is https://registry.npmjs.org/gulp-karma
+24 info trying registry request attempt 1 at 10:34:25
+25 verbose etag "9J738UF1IREONHFAZ9LE3CGGM"
+26 http GET https://registry.npmjs.org/gulp-karma
+27 http 200 https://registry.npmjs.org/gulp-karma
+28 silly registry.get cb [ 200,
+28 silly registry.get   { date: 'Wed, 04 Mar 2015 08:34:26 GMT',
+28 silly registry.get     server: 'CouchDB/1.6.1 (Erlang OTP/R14B04)',
+28 silly registry.get     etag: '"DUFNY8DPM2OLFKYDBW8CHSM74"',
+28 silly registry.get     'content-type': 'application/json',
+28 silly registry.get     'cache-control': 'max-age=60',
+28 silly registry.get     'content-length': '7494',
+28 silly registry.get     'accept-ranges': 'bytes',
+28 silly registry.get     via: '1.1 varnish',
+28 silly registry.get     age: '0',
+28 silly registry.get     'x-served-by': 'cache-fra1220-FRA',
+28 silly registry.get     'x-cache': 'HIT',
+28 silly registry.get     'x-cache-hits': '1',
+28 silly registry.get     'x-timer': 'S1425458066.179879,VS0,VE169',
+28 silly registry.get     vary: 'Accept',
+28 silly registry.get     'keep-alive': 'timeout=10, max=50',
+28 silly registry.get     connection: 'Keep-Alive' } ]
+29 silly addNameRange number 2 { name: 'gulp-karma', range: '*', hasData: true }
+30 silly addNameRange versions [ 'gulp-karma', [ '0.0.1', '0.0.2', '0.0.3', '0.0.4' ] ]
+31 verbose addNamed [ 'gulp-karma', '0.0.4' ]
+32 verbose addNamed [ '0.0.4', '0.0.4' ]
+33 silly lockFile d909131b-gulp-karma-0-0-4 gulp-karma@0.0.4
+34 verbose lock gulp-karma@0.0.4 /home/borue_ys/.npm/d909131b-gulp-karma-0-0-4.lock
+35 silly lockFile d909131b-gulp-karma-0-0-4 gulp-karma@0.0.4
+36 silly lockFile d909131b-gulp-karma-0-0-4 gulp-karma@0.0.4
+37 silly lockFile c14ff181-gulp-karma gulp-karma@
+38 silly lockFile c14ff181-gulp-karma gulp-karma@
+39 silly resolved [ { name: 'gulp-karma',
+39 silly resolved     version: '0.0.4',
+39 silly resolved     description: 'Karma plugin for gulp',
+39 silly resolved     main: 'index.js',
+39 silly resolved     dependencies:
+39 silly resolved      { optimist: '~0.6.0',
+39 silly resolved        'gulp-util': '~2.2.14',
+39 silly resolved        xtend: '~2.1.1',
+39 silly resolved        'event-stream': '~3.0.20' },
+39 silly resolved     peerDependencies: { karma: '>=0.10 <=0.13' },
+39 silly resolved     devDependencies: { should: '~2.1.1', mocha: '~1.15.1' },
+39 silly resolved     scripts: { test: 'mocha' },
+39 silly resolved     repository: { type: 'git', url: 'git://github.com/lazd/gulp-karma.git' },
+39 silly resolved     keywords: [ 'gulpplugin', 'karma' ],
+39 silly resolved     author: { name: 'Larry Davis', email: 'lazdnet@gmail.com' },
+39 silly resolved     license: 'MIT',
+39 silly resolved     bugs: { url: 'https://github.com/lazd/gulp-karma/issues' },
+39 silly resolved     engines: { node: '>=0.6' },
+39 silly resolved     homepage: 'https://github.com/lazd/gulp-karma',
+39 silly resolved     _id: 'gulp-karma@0.0.4',
+39 silly resolved     dist:
+39 silly resolved      { shasum: '65cc202483f25369966ed60ff5dba1f6476131bd',
+39 silly resolved        tarball: 'http://registry.npmjs.org/gulp-karma/-/gulp-karma-0.0.4.tgz' },
+39 silly resolved     _from: 'gulp-karma@',
+39 silly resolved     _npmVersion: '1.3.24',
+39 silly resolved     _npmUser: { name: 'lazd', email: 'lazdnet@gmail.com' },
+39 silly resolved     maintainers: [ [Object] ],
+39 silly resolved     directories: {},
+39 silly resolved     _shasum: '65cc202483f25369966ed60ff5dba1f6476131bd',
+39 silly resolved     _resolved: 'https://registry.npmjs.org/gulp-karma/-/gulp-karma-0.0.4.tgz',
+39 silly resolved     readme: 'ERROR: No README data found!' } ]
+40 info install gulp-karma@0.0.4 into /usr/lib
+41 info installOne gulp-karma@0.0.4
+42 verbose lib/node_modules/gulp-karma unbuild
+43 verbose tar unpack /home/borue_ys/.npm/gulp-karma/0.0.4/package.tgz
+44 silly lockFile 69a62d90--usr-lib-node-modules-gulp-karma tar:///usr/lib/node_modules/gulp-karma
+45 verbose lock tar:///usr/lib/node_modules/gulp-karma /home/borue_ys/.npm/69a62d90--usr-lib-node-modules-gulp-karma.lock
+46 silly lockFile b7d25e1c-npm-gulp-karma-0-0-4-package-tgz tar:///home/borue_ys/.npm/gulp-karma/0.0.4/package.tgz
+47 verbose lock tar:///home/borue_ys/.npm/gulp-karma/0.0.4/package.tgz /home/borue_ys/.npm/b7d25e1c-npm-gulp-karma-0-0-4-package-tgz.lock
+48 silly gunzTarPerm modes [ '775', '664' ]
+49 error Error: EACCES, mkdir '/usr/lib/node_modules/gulp-karma'
+49 error  { [Error: EACCES, mkdir '/usr/lib/node_modules/gulp-karma']
+49 error   errno: 3,
+49 error   code: 'EACCES',
+49 error   path: '/usr/lib/node_modules/gulp-karma',
+49 error   fstream_type: 'Directory',
+49 error   fstream_path: '/usr/lib/node_modules/gulp-karma',
+49 error   fstream_class: 'DirWriter',
+49 error   fstream_stack:
+49 error    [ '/usr/lib/node_modules/npm/node_modules/fstream/lib/dir-writer.js:36:23',
+49 error      '/usr/lib/node_modules/npm/node_modules/mkdirp/index.js:46:53',
+49 error      'Object.oncomplete (fs.js:108:15)' ] }
+50 error Please try running this command again as root/Administrator.
+51 error System Linux 3.13.0-46-generic
+52 error command "/usr/bin/node" "/usr/bin/npm" "install" "-g" "gulp-karma"
+53 error cwd /home/borue_ys/Documents/tictactoe
+54 error node -v v0.10.36
+55 error npm -v 1.4.28
+56 error path /usr/lib/node_modules/gulp-karma
+57 error fstream_path /usr/lib/node_modules/gulp-karma
+58 error fstream_type Directory
+59 error fstream_class DirWriter
+60 error code EACCES
+61 error errno 3
+62 error stack Error: EACCES, mkdir '/usr/lib/node_modules/gulp-karma'
+63 error fstream_stack /usr/lib/node_modules/npm/node_modules/fstream/lib/dir-writer.js:36:23
+63 error fstream_stack /usr/lib/node_modules/npm/node_modules/mkdirp/index.js:46:53
+63 error fstream_stack Object.oncomplete (fs.js:108:15)
+64 verbose exit [ 3, true ]

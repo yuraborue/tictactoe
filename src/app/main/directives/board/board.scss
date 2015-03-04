@@ -1,0 +1,15 @@
+board {
+	width:100%; 
+	display:block;
+	.board {
+	    table-layout: fixed;
+		tr {
+			td {
+			    text-align: center;
+			    border: 1px solid black;
+			    vertical-align: middle;
+				font-size: 32px;
+			}
+		}
+	}
+}

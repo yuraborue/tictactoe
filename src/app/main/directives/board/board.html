@@ -1,0 +1,12 @@
+<table class="board" ng-style="{width: boardSize}">
+	<tbody>
+		<tr ng-repeat="row in ngModel track by $index" ng-style="{ width: boxSize, height: boxSize }">
+			<td ng-repeat="cell in row track by $index" ng-click="ngMove($parent.$index, $index)" >
+				<span ng-switch on="cell">
+			      <span ng-switch-when="1">X</span>
+			      <span ng-switch-when="2">O</span>
+			  	</span>
+			</td>
+		</tr>
+	</tbody>
+</table>

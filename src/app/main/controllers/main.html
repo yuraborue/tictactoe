@@ -1,0 +1,19 @@
+<div id="content" ng-controller='MainCtrl as ctrl'>
+
+  <input type="number" ng-model="ctrl.dimension" placeholder="Dimension">
+  <button ng-click="ctrl.newGame()">New game</button>
+
+  <div ng-switch="ctrl.GameManager.winner">
+    <div ng-switch-when="-1">Tie game</div>
+    <div ng-switch-when="1">X is the winner</div>
+    <div ng-switch-when="2">O is the winner</div>
+    <div ng-switch-default>Game goes</div>
+  </div>
+
+  <div ng-switch="ctrl.GameManager.player">
+    <div ng-switch-when="1">Stroke X</div>
+    <div ng-switch-when="2">Stroke Y</div>
+  </div>
+
+  <board ng-model="ctrl.GameManager.board" ng-move="ctrl.move"></board>
+</div>
